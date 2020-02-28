@@ -29,7 +29,7 @@ end
   end
 
   def count_sentences
-    if self.count("string")
+    if self.count("3")
       return true
     else
       return false
