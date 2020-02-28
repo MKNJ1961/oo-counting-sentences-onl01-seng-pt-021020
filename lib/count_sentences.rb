@@ -29,7 +29,7 @@ end
   end
 
   def count_sentences
-    if self.count(split)
+    if self.count("string")
       return true
     else
       return false
