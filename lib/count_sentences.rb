@@ -29,11 +29,8 @@ end
   end
 
   def count_sentences
-    if self.count("3")
-      return true
-    else
-      return false
-
+    new_array = self.split(/[.?!]/).reject {|string| string.empty}
+    return new_array.length
   end
 end
 end
